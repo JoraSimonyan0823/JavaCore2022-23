@@ -2,31 +2,32 @@ package homework.homework1;
 
 public class IfForExample {
     public static void main(String[] args) {
-//        int a, b;  // Example1
-//        a = 15;
-//        b = 35;
-//        if (a < b) {
-//            System.out.println(b);
-//        }
-//        Example2
-//             for (a = 15; a <= b; a++) {
-//               System.out.println("Значение a. " + a);
-//    }
-//        char a = 'a'; // Example3
-//        a = 45;
-//        System.out.println(a);
-//
-//        Example4
-//        boolean a, b;
-//        a = true;
-//        b = false;
-//        int x, y;
-//        x = 4;
-//        y = 7;
-//        boolean c = x < y;
-//        System.out.println(c);
-//        boolean j = x > y;
-//        System.out.println(j);
+        int a, b;
+        a = 80;
+        b = 70;
+        if (a > b) {
+            System.out.println("max." + a);
+        } else {
+            System.out.println("max. " + b);
+        }
+
+        if (a > b) {
+            for (int i = b; i <= a; i++) {
+                System.out.println(i);
+            }
+        } else {
+            for (int i = a; i <= b; i++) {
+                System.out.println(i);
+            }
+        }
+        System.out.println((char) a);
+        System.out.println((char) b);
+        if (a == b) {
+            System.out.println("a հավասար է b");
+        } else {
+            System.out.println("a հավասար չէ  b");
+        }
     }
 }
+
 
