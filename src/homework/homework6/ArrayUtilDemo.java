@@ -25,21 +25,6 @@ public class ArrayUtilDemo {
         sum.sumArray(array);
         averageSum.averageSumArray(array);
 
-        // Մի քանի բան փորձելուց հետո գտա որ
-        // կարող ենք մի անգամ հայտարարենք ու բոլորի համար օգտագորժենք
-
-        ArrayUtil infoArray = new ArrayUtil();
-
-        infoArray.allOfArray(array);
-        infoArray.maxOfArray(array);
-        infoArray.minOfArray(array);
-        infoArray.firstOfArray(array);
-        infoArray.lastOfArray(array);
-        infoArray.averageOfArray(array);
-        infoArray.evenCountArray(array);
-        infoArray.oddCountArray(array);
-        infoArray.sumArray(array);
-        infoArray.averageSumArray(array);
     }
 }
 
