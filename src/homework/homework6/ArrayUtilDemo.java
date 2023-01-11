@@ -16,7 +16,7 @@ public class ArrayUtilDemo {
 
         all.allOfArray(array);
         max.maxOfArray(array);
-        min.minOFfArray(array);
+        min.minOfArray(array);
         first.firstOfArray(array);
         last.lastOfArray(array);
         average.averageOfArray(array);
