@@ -1,14 +1,14 @@
 package homework.homework6;
 
 public class ArrayUtil {
-    int[] array = {2, 8, 9, 7, -1, 21, 12, 22, 14, 45};
-    void allOfArray() {
+
+    void allOfArray(int[]array) {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
         System.out.println();
     }
-    void maxOfArray() {
+    void maxOfArray(int[]array) {
         int max = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] > max) {
@@ -20,7 +20,7 @@ public class ArrayUtil {
         System.out.println();
     }
 
-    void minOFfArray() {
+    void minOFfArray(int[]array) {
         int min = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] < min) {
@@ -30,22 +30,22 @@ public class ArrayUtil {
         System.out.println("min. " + min);
     }
 
-    void firstOfArray() {
+    void firstOfArray(int[]array) {
         System.out.println("First: " + array[0]);
     }
 
-    void lastOfArray() {
+    void lastOfArray(int[]array) {
 
         int lastIndex = array.length - 1;
         System.out.println("Last: " + array[lastIndex]);
     }
 
-    void averageOfArray() {
+    void averageOfArray(int[]array) {
         System.out.print("Average : " + array[array.length / 2]);
         System.out.println();
     }
 
-    void evenCountArray() {
+    void evenCountArray(int[]array) {
         int evenCount = 0;
         for (int x : array) {
             if (x % 2 == 0) {
@@ -55,7 +55,7 @@ public class ArrayUtil {
         System.out.println("Զույգերի քանակը : " + evenCount);
     }
 
-    void oddCountArray() {
+    void oddCountArray(int[]array) {
         int oddCount = 0;
         for (int x : array) {
             if (x % 2 != 0) {
@@ -65,7 +65,7 @@ public class ArrayUtil {
         System.out.println("Կենտերի քանակը: " + oddCount);
     }
 
-    void sumArray() {
+    void sumArray(int[]array) {
         int sum = 0;
         for (int x : array) {
             sum += x;
@@ -73,7 +73,7 @@ public class ArrayUtil {
         System.out.println("Էլեմենտների գումարը : " + sum);
     }
 
-    void averageSumArray() {
+    void averageSumArray(int[]array) {
         int sum = 0;
         for (int x : array) {
             sum += x;

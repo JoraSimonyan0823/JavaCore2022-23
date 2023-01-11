@@ -4,6 +4,8 @@ import Group1.chapter3.Array;
 
 public class ArrayUtilDemo {
     public static void main(String[] args) {
+        int[] array = {2, 8, 9, 7, -1, 21, 12, 22, 14, 45};
+
         ArrayUtil all = new ArrayUtil();
         ArrayUtil max = new ArrayUtil();
         ArrayUtil min = new ArrayUtil();
@@ -15,16 +17,16 @@ public class ArrayUtilDemo {
         ArrayUtil sum = new ArrayUtil();
         ArrayUtil averageSum = new ArrayUtil();
 
-        all.allOfArray();
-        max.maxOfArray();
-        min.minOFfArray();
-        first.firstOfArray();
-        last.lastOfArray();
-        average.averageOfArray();
-        evenCount.evenCountArray();
-        oddCount.oddCountArray();
-        sum.sumArray();
-        averageSum.averageSumArray();
+        all.allOfArray(array);
+        max.maxOfArray(array);
+        min.minOFfArray(array);
+        first.firstOfArray(array);
+        last.lastOfArray(array);
+        average.averageOfArray(array);
+        evenCount.evenCountArray(array);
+        oddCount.oddCountArray(array);
+        sum.sumArray(array);
+        averageSum.averageSumArray(array);
 
     }
 }
