@@ -4,7 +4,6 @@ import Group1.chapter3.Array;
 
 public class ArrayUtilDemo {
     public static void main(String[] args) {
-        int[] array = {2, 8, 9, 7, -1, 21, 12, 22, 14, 45};
         ArrayUtil all = new ArrayUtil();
         ArrayUtil max = new ArrayUtil();
         ArrayUtil min = new ArrayUtil();

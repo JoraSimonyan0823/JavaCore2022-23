@@ -2,9 +2,7 @@ package homework.homework6;
 
 public class ArrayUtil {
     int[] array = {2, 8, 9, 7, -1, 21, 12, 22, 14, 45};
-
     void allOfArray() {
-
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
