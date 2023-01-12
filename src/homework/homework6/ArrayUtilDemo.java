@@ -15,7 +15,6 @@ public class ArrayUtilDemo {
         infoArray.oddCountArray(array);
         infoArray.sumArray(array);
         infoArray.averageSumArray(array);
-
     }
 }
 

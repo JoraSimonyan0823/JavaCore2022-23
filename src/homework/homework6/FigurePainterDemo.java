@@ -9,6 +9,5 @@ public class FigurePainterDemo {
         fp.figureThree(6, '^');
         fp.figureFour(5, '%');
         fp.figureFive(5, '#');
-
     }
 }
