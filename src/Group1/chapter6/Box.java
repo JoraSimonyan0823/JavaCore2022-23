@@ -5,8 +5,20 @@ public class Box {
     double height;
     double depth;
 
-    void volume() {
-        System.out.print("Обьем равен ");
-        System.out.println(width * height * depth);
+    Box(double w, double h, double d) {
+        width = w;
+        height = h;
+        depth = d;
+    }
+
+    double volume() {
+        return width * height * depth;
+    }
+
+    void sethDim(double w, double h, double d) {
+        width = w;
+        height = h;
+        depth = d;
     }
 }
+
