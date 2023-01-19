@@ -1,14 +1,14 @@
-package Group1.chapter6;
+package Group1.chapter6.Box;
 
 public class BoxDemo6 {
     public static void main(String[] args) {
-
-        Box myBox1 = new Box(10, 20, 15);
-        Box myBox2 = new Box(3, 6, 9);
+        Box6 mybox1 = new Box6();
+        Box6 mybox2 = new Box6();
         double vol;
-        vol = myBox1.volume();
+        vol = mybox1.volume();
         System.out.println("Обьем равен " + vol);
-        vol = myBox2.volume();
+        vol = mybox2.volume();
         System.out.println("Обьем равен " + vol);
+
     }
 }
