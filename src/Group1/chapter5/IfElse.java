@@ -1,7 +1,5 @@
 package Group1.chapter5;
 
-import javax.swing.*;
-
 public class IfElse {
     public static void main(String[] args) {
 

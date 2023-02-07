@@ -1,0 +1,16 @@
+package Group1.chapter8.dispatch;
+
+public class Dispatch {
+    public static void main(String[] args) {
+        A a = new A();
+        B b = new B();
+        C c = new C();
+        A r;
+        r = a;
+        r.callme();
+        r = b;
+        b.callme();
+        r = c;
+        c.callme();
+    }
+}

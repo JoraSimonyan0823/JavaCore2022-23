@@ -1,7 +1,5 @@
 package Group1.chapter5;
 
-import javax.imageio.stream.ImageInputStreamImpl;
-
 public class Switch {
     public static void main(String[] args) {
 
